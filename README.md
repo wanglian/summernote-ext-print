@@ -1,7 +1,7 @@
 Print plugin for Summernote
 ===========================
 
-This plugin allows summernote prints its document, not whole web page. 
+This plugin allows summernote prints its document, not whole web page.
 
 DEMO PAGE : <http://lqez.github.io/summernote-ext-print/>
 
@@ -12,7 +12,15 @@ USAGE
  1. If you're using bower, than just type `bower install summernote-ext-print`
     or download and copy summernote-ext-print to your own directory.
 
+```
+meteor npm install --save summernote-ext-print
+```
+
  2. Embed `summernote-ext-print.js` into your page.
+
+```
+import 'summernote-ext-print/summernote-ext-print.js';
+```
 
  3. Configure the toolbar of summernote like below.
 
