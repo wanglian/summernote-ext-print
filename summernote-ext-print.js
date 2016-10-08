@@ -46,7 +46,7 @@
       context.memo('button.print', function () {
         // create button
         var button = ui.button({
-          contents: '<i class="fa fa-print"/> ' + lang.print.print,
+          contents: '<i class="fa fa-print"/>',
           tooltip: lang.print.print,
           click: function () {
             self.$printframe.contents().find('body').html(context.invoke('code'));
